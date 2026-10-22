@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1220">
+  <meta name="description" content="RakshaAI is a student project concept for helping people identify suspicious links and scam pressure tactics.">
+  <title>RakshaAI — Stay one step ahead of scams</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="config.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="RakshaAI home">
+      <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M16 3 27 7v8c0 7-4.7 11.6-11 14C9.7 26.6 5 22 5 15V7l11-4Z"/><path d="m11 16 3.2 3.2L21.5 12"/></svg></span>
+      <span>Raksha<span class="brand-ai">AI</span><small>VERNACULAR SCAM DEFENSE</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="nav" id="mainNav" aria-label="Main navigation">
+      <a href="#home" class="nav-link active">Home</a><a href="#features" class="nav-link">Features</a><a href="#scanner" class="nav-link">Link scanner</a><a href="#about" class="nav-link">About</a>
+      <a class="nav-cta" href="#scanner">Check a link <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="live-dot"></span> DIGITAL SAFETY, IN YOUR LANGUAGE</div>
+        <h1>Pause the scam.<br><span>Protect your world.</span></h1>
+        <p class="hero-description">A student-built concept for spotting suspicious links and recognizing high-pressure scam tactics—with clear warnings designed for everyone.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#scanner">Check a suspicious link <span>↗</span></a><a class="button button-ghost" href="#features"><span class="play-icon">▶</span> Explore protection</a></div>
+        <div class="trust-row"><div class="avatar-stack"><span>R</span><span>✓</span><span>盾</span></div><p><strong>Built around awareness.</strong><br><span>Designed to make digital safety easier to understand.</span></p></div>
+      </div>
+      <div class="hero-visual" aria-label="Illustration of a digital protection dashboard">
+        <div class="orbit orbit-outer"></div><div class="orbit orbit-inner"></div>
+        <div class="shield-core"><svg viewBox="0 0 120 140" aria-hidden="true"><path d="M60 7 105 23v34c0 32-18 54-45 69C33 111 15 89 15 57V23L60 7Z"/><path d="m39 65 14 14 29-31"/></svg><span>RAKSHA AI</span></div>
+        <div class="float-card card-protected"><span class="mini-icon green">✓</span><div><b>Protection layer</b><small>Ready to check a link</small></div><span class="status-dot"></span></div>
+        <div class="float-card card-language"><span class="mini-icon purple">文</span><div><b>Vernacular alerts</b><small>Hindi · Tamil · Marathi</small></div></div>
+        <div class="float-card card-signal"><span class="signal-bars"><i></i><i></i><i></i><i></i></span><div><b>Risk signals</b><small>Links & pressure tactics</small></div></div>
+        <div class="visual-caption"><span class="caption-line"></span> AWARENESS IS YOUR FIRST LINE OF DEFENSE</div>
+      </div>
+    </section>
+
+    <section class="metrics section-wrap" aria-label="Project principles">
+      <div class="metric"><span class="metric-icon">◎</span><div><b>Link awareness</b><small>Review suspicious URLs</small></div></div>
+      <div class="metric"><span class="metric-icon">◉</span><div><b>Pressure cues</b><small>Recognize urgency tactics</small></div></div>
+      <div class="metric"><span class="metric-icon">文</span><div><b>Local-language focus</b><small>Warnings people can understand</small></div></div>
+      <div class="metric"><span class="metric-icon">⌁</span><div><b>Privacy-conscious goal</b><small>Minimize personal data handling</small></div></div>
+    </section>
+
+    <section class="section-wrap section-block" id="features">
+      <div class="section-heading"><div><div class="eyebrow">HOW RAKSHAAI HELPS</div><h2>More awareness.<br><span>Less room for scams.</span></h2></div><p>Scams often combine a convincing link with pressure to act quickly. RakshaAI's proposed layers are designed to help people pause, inspect, and verify.</p></div>
+      <div class="feature-grid">
+        <article class="feature-card"><div class="feature-icon icon-green">⌕</div><span class="feature-number">01 / LINK CHECK</span><h3>Suspicious-link review</h3><p>Inspect a URL for visible warning signs such as unusual domains, look-alike spellings, and risky patterns.</p><a href="#scanner" class="text-link">Try the demo <span>→</span></a></article>
+        <article class="feature-card"><div class="feature-icon icon-purple">◉</div><span class="feature-number">02 / SCAM PRESSURE</span><h3>Spot urgent demands</h3><p>Highlight phrases commonly used to intimidate people, such as threats of immediate arrest or urgent money transfers.</p><a href="#features" class="text-link" data-demo-info>Explore the concept <span>→</span></a></article>
+        <article class="feature-card"><div class="feature-icon icon-orange">♫</div><span class="feature-number">03 / VOICE ALERTS</span><h3>Warnings in your language</h3><p>Plan for clear voice alerts in supported regional languages so warnings are easier to understand and act on.</p><a href="#scanner" class="text-link">Hear a sample <span>→</span></a></article>
+      </div>
+    </section>
+
+    <section class="scanner-section" id="scanner">
+      <div class="section-wrap scanner-layout">
+        <div class="scanner-copy"><div class="eyebrow"><span class="live-dot"></span> INTERACTIVE FRONTEND DEMO</div><h2>Not sure about a link?<br><span>Check before you click.</span></h2><p>Paste a URL below to see the interface in action. In demo mode, checks use simple browser-side heuristics only—not a live security database or AI model.</p>
+          <div class="scanner-points"><span><i>✓</i> No account required</span><span><i>✓</i> Clear, explainable signals</span><span><i>✓</i> Backend-ready interface</span></div>
+        </div>
+        <div class="scanner-panel"><div class="panel-top"><div class="panel-title"><span class="panel-shield">⌑</span><div><b>Link safety checker</b><small>RakshaAI analysis panel</small></div></div><span class="demo-badge"><i></i> DEMO MODE</span></div>
+          <form id="scanForm" novalidate><label for="urlInput">Suspicious URL</label><div class="input-row"><span class="input-prefix">↗</span><input id="urlInput" name="url" type="text" inputmode="url" autocomplete="url" placeholder="https://example.com" aria-describedby="urlHelp scanError"><button class="scan-button" type="submit" id="scanButton">Analyze <span>→</span></button></div><p class="field-help" id="urlHelp">Enter a complete URL, including the domain.</p><p class="field-error" id="scanError" role="alert" hidden></p></form>
+          <div class="result-box" id="resultBox" aria-live="polite"><div class="result-placeholder"><span class="placeholder-icon">⌕</span><b>Your scan result will appear here</b><p>Enter a URL above and select Analyze to view demo signals.</p></div></div>
+          <div class="panel-foot"><span>ⓘ</span> Demo results are not a guarantee that a website is safe or malicious.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-wrap awareness section-block"><div class="awareness-card"><div class="awareness-art"><div class="awareness-ring"></div><div class="awareness-shield">!</div><span class="art-star star-a">✳</span><span class="art-star star-b">✦</span></div><div class="awareness-copy"><div class="eyebrow">REMEMBER THIS</div><h2>Scammers create urgency.<br><span>You can create a pause.</span></h2><p>Government agencies and banks should not pressure you to transfer money to “verify” your account. Stop, independently contact the organization using an official channel, and talk to someone you trust.</p><button class="button button-primary" id="safetyTipButton" type="button">Read a quick safety tip <span>→</span></button><p class="tip-message" id="tipMessage" hidden>Never share OTPs, PINs, passwords, or screen access with an unknown caller. If someone threatens you, end the call and verify independently.</p></div></div></section>
+
+    <section class="section-wrap section-block about-section" id="about"><div class="about-left"><div class="eyebrow">ABOUT THE PROJECT</div><h2>Technology with<br><span>people at the center.</span></h2></div><div class="about-right"><p>RakshaAI is a B.Tech mini-project concept focused on accessible, vernacular-first scam awareness. The proposed system can combine URL signals, scam-language detection, and spoken warnings in a future integrated build.</p><div class="tech-chips"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Backend integration planned</span></div><p class="small-note">This website is the frontend prototype. AI analysis, live reputation checks, call monitoring, and guardian notifications are not active until a backend and the required services are connected.</p></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="section-wrap footer-inner"><a class="brand footer-brand" href="#home"><span class="brand-mark"><svg viewBox="0 0 32 32"><path d="M16 3 27 7v8c0 7-4.7 11.6-11 14C9.7 26.6 5 22 5 15V7l11-4Z"/><path d="m11 16 3.2 3.2L21.5 12"/></svg></span><span>Raksha<span class="brand-ai">AI</span><small>STUDENT PROJECT · DIGITAL SAFETY</small></span></a><p>Built to encourage a safer, more informed digital world.</p><a href="#home" class="back-top">Back to top ↑</a></div><div class="section-wrap footer-bottom"><span>© <span id="year"></span> RakshaAI Mini Project</span><span>Prototype interface · Not a certified security product</span></div></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
